@@ -1,0 +1,146 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    font-size: 20px;
+    /* height: 3000px; */
+}
+
+/* header */
+.first {
+    background-color: #f7f7f7 ;
+}
+.con-1 {
+    padding: 20px;
+
+}
+header div a {
+    text-decoration: none;
+    color: black;
+    transform: translateX(3px);
+    transition: 0.3s;
+}
+
+ul li   {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+    transition: 0.3;
+}
+ul li:hover {
+    /* text-decoration: underline; */
+    transform: translateX(3px);
+    text-decoration: underline;
+}
+
+/* section 1 */
+.sec-2 {
+    text-align: center;
+}
+.sec-2 img {
+    width: 75%;
+    height: 75%;
+}
+.sec-2 div img:hover {
+    opacity: 50%;
+}
+
+.line {
+    border-bottom: 5px solid black;
+    width: 10%;
+}
+.view-1 {
+    width: 25%;
+    margin: auto;
+}
+
+/* cards */
+.cards {
+    text-align: center;
+}
+.cards img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+/* question */
+.question {
+    background-color: #f7f7f7 ;
+    width: 100%;
+}
+.question div {
+    text-align: center;
+    padding: 10px;
+}
+.question p {
+    display: none;
+}
+
+.question .div-1:hover .p-1 {
+    display:block;
+}
+
+.question .div-2:hover .p-2 {
+    display:block;
+}
+
+.question .div-3:hover .p-3 {
+    display:block;
+}
+
+/* price */
+.price div{
+    padding: 15px ;
+    text-align: center;
+
+}
+
+/* buy */
+.buy div{
+    padding: 35px;
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #f7f7f7 ;
+}
+ul li 
+.end {
+
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.end:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer div ul li {
+    display: block;
+
+}
+.footer div ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(140, 137, 137);
+    list-style: none;
+    transition: 0.3;
+}
+
+.footer div p {
+    color: rgb(140, 137, 137);
+
+}
+
+
+
